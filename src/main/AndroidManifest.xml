@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.lee.words" >
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        >
+        <meta-data
+            android:name="BaiduMobAd_APP_ID"
+            android:value="b4acbadd" />
+        <meta-data
+            android:name="BaiduMobAd_APP_SEC"
+            android:value="b4acbadd" />
+
+        <activity android:name="com.lee.assist.WelcomActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity"/>
+        <activity android:name="com.lee.activity.ContentActicity"/>
+        <activity android:name="com.lee.activity.StudyActivity"/>
+        <activity android:name="com.lee.activity.MoshengActivity"/>
+        <activity android:name="com.lee.activity.EditActivity"/>
+        <activity android:name="com.lee.activity.ReviewActivity_2"/>
+        <activity android:name="com.lee.activity.TestActivity"/>
+        <activity android:name="com.lee.activity.ExamActivity"/>
+        <activity android:name="com.lee.activity.ReviseActivity"/>
+    </application>
+
+</manifest>

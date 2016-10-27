@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:background="@color/colorPrimary"
+    android:layout_height="match_parent">
+<RelativeLayout
+    android:layout_marginTop="30dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:layout_centerInParent="true"
+        android:src="@drawable/icon"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:id="@+id/imageView5" />
+
+</RelativeLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="我的账号"
+        android:textSize="20sp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_gravity="center_horizontal" />
+
+    <RadioButton
+        android:layout_marginLeft="30dp"
+        android:layout_weight="1"
+        android:button="@null"
+        android:textSize="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="敬请期待"
+        android:id="@+id/radioButton"
+        android:checked="false" />
+
+    <RadioButton
+        android:layout_marginLeft="30dp"
+        android:textSize="20sp"
+
+        android:layout_weight="1"
+        android:button="@null"
+        android:layout_width="match_parent"
+
+        android:layout_height="wrap_content"
+        android:text="敬请期待"
+        android:id="@+id/radioButton2" />
+
+    <RadioButton
+        android:layout_marginLeft="30dp"
+        android:textSize="20sp"
+
+        android:layout_weight="1"
+        android:button="@null"
+        android:layout_width="match_parent"
+
+        android:layout_height="wrap_content"
+        android:text="敬请期待"
+        android:id="@+id/radioButton3" />
+
+    <RadioButton
+        android:layout_marginLeft="30dp"
+        android:textSize="20sp"
+
+        android:layout_weight="1"
+        android:button="@null"
+        android:layout_width="match_parent"
+
+        android:layout_height="wrap_content"
+        android:text="敬请期待"
+        android:id="@+id/radioButton4" />
+
+    <RadioButton
+        android:layout_marginLeft="30dp"
+        android:textSize="20sp"
+
+        android:layout_weight="1"
+        android:button="@null"
+        android:layout_width="match_parent"
+
+        android:layout_height="wrap_content"
+        android:text="敬请期待"
+        android:id="@+id/radioButton5" />
+    <RadioButton
+        android:layout_marginLeft="30dp"
+        android:textSize="20sp"
+
+        android:layout_weight="1"
+        android:button="@null"
+        android:layout_width="match_parent"
+
+        android:layout_height="wrap_content"
+        android:text="敬请期待"
+        android:id="@+id/radioButton6" />
+    <RadioButton
+        android:layout_marginLeft="30dp"
+        android:textSize="20sp"
+
+        android:layout_weight="1"
+        android:button="@null"
+        android:layout_width="match_parent"
+
+        android:layout_height="wrap_content"
+        android:text="敬请期待"
+        android:id="@+id/radioButton7" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:paddingLeft="30dp"
+        android:layout_marginBottom="30dp"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="设置"
+            android:id="@+id/button2" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="夜间"
+            android:id="@+id/button3" />
+    </LinearLayout>
+
+
+</LinearLayout>

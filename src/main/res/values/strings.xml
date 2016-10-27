@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">背单词</string>
+    <array name="ciku">
+        <item>单词GRE词库一</item>
+        <item>单词GRE词库二</item>
+        <item>单词GRE词库三</item>
+    </array>
+    <array name="operator">
+        <item>编辑该单词</item>
+        <item>从生词本删除</item>
+    </array>
+</resources>

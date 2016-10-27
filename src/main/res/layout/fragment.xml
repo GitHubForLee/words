@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:layout_marginTop="5dp"
+            android:id="@+id/bt_back"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:textSize="18dp"
+            android:text="上一周"
+            android:layout_marginRight="10dp"
+            android:enabled="false"
+            android:visibility="gone"
+            android:background="@drawable/button_press"
+
+            android:layout_height="40dp" />
+        <Button
+            android:layout_marginTop="5dp"
+
+            android:id="@+id/bt_next"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:textSize="18dp"
+            android:text="下一周"
+            android:background="@drawable/button_press"
+            android:visibility="gone"
+            android:layout_height="40dp" />
+    </LinearLayout>
+    <ListView
+        android:descendantFocusability="blocksDescendants"
+        android:id="@+id/lv_study"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </ListView>
+    <
+</LinearLayout>

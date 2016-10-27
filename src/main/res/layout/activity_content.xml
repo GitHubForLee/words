@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@drawable/background"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:layout_height="0dp">
+       <LinearLayout
+
+           android:paddingTop="10dp"
+           android:paddingBottom="10dp"
+           android:gravity="center"
+           android:background="@drawable/panel"
+           android:layout_width="match_parent"
+           android:orientation="vertical"
+           android:layout_height="wrap_content">
+
+
+           <LinearLayout
+               android:gravity="center"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content">
+
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:textAppearance="?android:attr/textAppearanceLarge"
+                   android:text="序号"
+                   android:id="@+id/tv_number" />
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:textAppearance="?android:attr/textAppearanceLarge"
+                   android:text="."
+                   android:layout_height="wrap_content" />
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:textAppearance="?android:attr/textAppearanceLarge"
+                   android:text="拼写"
+                   android:id="@+id/tv_spelling" />
+
+               <ImageView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:id="@+id/imageView" />
+
+               <ImageView
+                   android:id="@+id/iv_voice"
+                   android:layout_marginLeft="5dp"
+                   android:layout_width="50dp"
+                   android:src="@drawable/voice"
+                   android:layout_height="50dp" />
+
+           </LinearLayout>
+
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_margin="20dp"
+               android:textAppearance="?android:attr/textAppearanceLarge"
+               android:text="发音"
+               android:id="@+id/tv_fayin" />
+
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:textAppearance="?android:attr/textAppearanceLarge"
+               android:text="意思"
+               android:id="@+id/tv_mean" />
+       </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:textSize="20sp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/button_press"
+            android:text="上一个"
+            android:id="@+id/bt_back" />
+
+        <Button
+            android:layout_weight="1"
+            android:background="@drawable/button_press"
+            android:textSize="20sp"
+            android:layout_marginRight="10dp"
+
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:text="加入生词本"
+            android:id="@+id/bt_addInto" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/button_press"
+            android:textSize="20sp"
+            android:layout_height="50dp"
+            android:text="下一个"
+            android:layout_marginRight="10dp"
+
+            android:id="@+id/bt_next" />
+    </LinearLayout>
+</LinearLayout>

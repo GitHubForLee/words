@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:background="@drawable/background"
+    android:layout_height="match_parent">
+
+    <RadioGroup
+        android:id="@+id/radio_group"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:button="@null"
+            android:background="@drawable/button_selector"
+
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:gravity="center"
+            android:textSize="25sp"
+            android:layout_height="50dp"
+            android:text="复习"
+            android:checked="true"
+            android:id="@+id/rb_review" />
+        <RadioButton
+            android:button="@null"
+            android:background="@drawable/button_selector"
+
+            android:layout_weight="1"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:textSize="25sp"
+            android:layout_width="wrap_content"
+            android:text="所有"
+            android:id="@+id/rb_all" />
+        <RadioButton
+            android:button="@null"
+            android:background="@drawable/button_selector"
+
+            android:layout_weight="1"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:textSize="25sp"
+            android:layout_width="wrap_content"
+            android:text="计划"
+            android:id="@+id/rb_plan" />
+    </RadioGroup>
+    <FrameLayout
+        android:id="@+id/fragment_container"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent">
+    </FrameLayout>
+</LinearLayout>

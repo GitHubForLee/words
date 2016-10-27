@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:background="@drawable/background"
+    android:layout_height="match_parent">
+
+
+
+        <TextView
+            android:layout_gravity="center"
+            android:layout_marginTop="50dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="单词复习"
+            />
+    <LinearLayout
+        android:background="@drawable/panel"
+        android:layout_marginTop="50dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:paddingTop="20dp"
+        android:paddingBottom="20dp"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+
+            android:layout_marginLeft="40dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/tv_id"
+                android:text="序号"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:text="."
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/tv_spelling"
+                android:text="单词"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <ImageView
+                android:id="@+id/iv_voice"
+                android:layout_marginLeft="5dp"
+                android:layout_width="50dp"
+                android:src="@drawable/voice"
+                android:layout_height="50dp" />
+        </LinearLayout>
+        <TextView
+            android:id="@+id/tv_fayin"
+            android:layout_marginLeft="40dp"
+            android:layout_width="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="音标"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/tv_meanning"
+            android:layout_width="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="请尽力回想中文意思!"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:gravity="bottom"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <Button
+            android:text="加入生词本"
+            android:id="@+id/bt_addInto"
+            android:textSize="20sp"
+            android:layout_weight="1"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/button_press"
+            android:layout_width="0dp"
+            android:layout_height="50dp" />
+        <Button
+            android:text="我记得"
+            android:id="@+id/bt_remember"
+            android:layout_weight="1"
+            android:textSize="20sp"
+            android:layout_marginRight="10dp"
+
+            android:background="@drawable/button_press"
+
+            android:layout_width="0dp"
+            android:layout_height="50dp" />
+        <Button
+            android:text="不记得了"
+            android:id="@+id/bt_unremember"
+            android:layout_weight="1"
+            android:background="@drawable/button_press"
+            android:textSize="20sp"
+
+            android:layout_width="0dp"
+            android:layout_height="50dp" />
+        <Button
+            android:id="@+id/bt_next"
+            android:visibility="gone"
+            android:text="下一个"
+            android:background="@drawable/button_press"
+            android:textSize="20sp"
+            android:layout_weight="2"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            />
+    </LinearLayout>
+
+
+
+
+</LinearLayout>
